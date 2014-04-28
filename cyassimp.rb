@@ -1,7 +1,7 @@
 require 'formula'
 
 class Cyassimp < Formula
-  homepage 'https://github.com/menpo'
+  homepage 'https://github.com/menpo/cyassimp'
   url 'https://pypi.python.org/packages/source/c/cyassimp/cyassimp-0.1.3.tar.gz'
   sha1 'c95da26d4c956c82725a18472f77d0ff3f3190a1'
   head 'https://github.com/menpo/cyassimp.git'
