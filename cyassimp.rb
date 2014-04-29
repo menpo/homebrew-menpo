@@ -8,7 +8,7 @@ class Cyassimp < Formula
 
   depends_on :python
   depends_on 'assimp'
-  depends_on 'numpy'
+  depends_on 'homebrew/python/numpy'
 
   def install
     system "python", "setup.py", "install", "--prefix=#{prefix}", "--single-version-externally-managed", "--record=installed.txt"

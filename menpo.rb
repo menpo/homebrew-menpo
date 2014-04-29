@@ -10,10 +10,10 @@ class Menpo < Formula
   depends_on :python
   depends_on 'cyassimp'
   depends_on 'cyrasterize'
-  depends_on 'numpy'
-  depends_on 'scipy'
-  depends_on 'matplotlib'
-  depends_on 'pillow'
+  depends_on 'homebrew/python/numpy'
+  depends_on 'homebrew/python/scipy'
+  depends_on 'homebrew/python/matplotlib'
+  depends_on 'homebrew/python/pillow'
 
   # we want menpo-PyVRML97 to get uninstalled with menpo
   resource 'menpo-PyVRML97' do

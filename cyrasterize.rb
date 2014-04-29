@@ -9,7 +9,7 @@ class Cyrasterize < Formula
   depends_on :python
   depends_on 'glfw3'
   depends_on 'glew'
-  depends_on 'numpy'
+  depends_on 'homebrew/python/numpy'
 
   def install
     system "python", "setup.py", "install", "--prefix=#{prefix}", "--single-version-externally-managed", "--record=installed.txt"
