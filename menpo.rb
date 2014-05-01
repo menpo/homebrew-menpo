@@ -3,8 +3,8 @@ require 'formula'
 
 class Menpo < Formula
   homepage 'https://github.com/menpo/menpo'
-  url 'https://pypi.python.org/packages/source/m/menpo/menpo-0.2.1.tar.gz'
-  sha1 '50844704fffa6ba5ce964967255878b4c5090867'
+  url 'https://pypi.python.org/packages/source/m/menpo/menpo-0.2.2.tar.gz'
+  sha1 '96cd2ef60ae598a0f4a6dc9e709ec57ce3f5c898'
   head 'https://github.com/menpo/menpo.git'
 
   depends_on :python
